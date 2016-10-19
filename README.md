@@ -33,7 +33,7 @@ Use the directive in your HTML files with the following code:
 - largePercentText (boolean: optional)
 
 
-Take a look at index.html or [here](https://sonith.github.io/angular-material-slider/) for a demo.
+Take a look at index.html or [here](https://sonith.github.io/angular-material-progressbar/) for a demo.
 
 
 ## License

@@ -1,53 +1,14 @@
-/* 
-	Slider animation css. 
-	Something I cooked up real fast. 
-	Feel free to experiment and change it. 
-	Submit a pull request if you improve this.
-*/
-
-.slide-animation .slider {
-	z-index : -1;
-	position: absolute;
-	overflow: hidden;
-	background-color: red;
-	width: 50%;
-	height: 100%;
-	border-radius: 6px;
-	transition: 70ms ease-out all;
-	transform: translateX(100%);
-	color: red;
+.progress-bar {
+  border-width: 1px;
+  border-radius: 8px;
+  background-color: white;
+  border-color: #aaa;
+  overflow: hidden;
+  height: 15px;
 }
-
-.slide-animation .slider.ng-enter {
-	z-index:10;
-	transform: translateX(0%);
-}
-
-.slide-animation .slider.ng-enter.ng-enter-active {
-	transform: translateX(100%);
-	z-index: -1;
-	color: white;
-}
-
-.slide-animation .ng-leave {
-	z-index:1;
-	transform: translateX(100%);
-}
-
-.slide-animation .ng-leave.ng-leave-active {
-	transform: translateX(0%);
-	z-index:0;
-	color: white;
-}
-
-/*
-	end animation css
-*/
-
-/* 
-	remove the annoying angular material outline 
-	copy to your code wisely.
-*/ 
-* {
-	outline: none;
+.progress-bar-bar {
+  width: 0px;
+  font-weight: normal;
+  border-radius: 8px;
+  height: 16px;
 }

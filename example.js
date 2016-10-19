@@ -1,2 +1,2 @@
 'use strict';
-angular.module('example', ['ngMaterial' ,'ngAnimate', 'angular-material-slider']);
+angular.module('example', ['ngMaterial' ,'ngAnimate', 'angular-material-progressbar']);

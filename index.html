@@ -17,19 +17,19 @@
 
 	<body ng-app="example" ng-cloak>
 		<div layout="column">
-			<p layout layout-align="center">
-				<m-slider class="slide-animation" true-color="red" false-color="gray" flex="25" l-text="Music" r-text="Movie" ng-model="selection" ng-change="angular.noop()"></m-slider>
+			<p layout layout-align="center center">
+				<span ng-if="val" flex="25" layout><m-progress-bar flex layout="column" cur-val="{{val}}" caption="percent" center-caption="true"></m-progress-bar></span>
+				<input type="text" ng-model="val" placeholder="enter value">
 			</p>
-			<p layout layout-align="center">
-				{{selection}}
-			</p>
+
+
 		</div>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-animate.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.1/angular-material.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-aria.min.js"></script>
-		<script src="angular-material-slider.js"></script>
+		<script src="angular-material-progressbar.js"></script>
 		<script src="example.js"></script>
 	</body>
 </html>

@@ -30,7 +30,7 @@ Use the directive in your HTML files with the following code:
 	center the text on top?
 - caption (string: optional)
 	the text on top
-- largePercentText (boolean: optional)
+- large-percent-text (boolean: optional)
 
 
 Take a look at index.html or [here](https://sonith.github.io/angular-material-progressbar/) for a demo.

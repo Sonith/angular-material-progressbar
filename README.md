@@ -11,12 +11,12 @@ None
 
 Load this directive with the following code:
 ```html
-<script type="text/javascript" src="angular-material-slider.js"></script>
+<script type="text/javascript" src="angular-material-progressbar.js"></script>
 ```
 
 Add a dependency to the module in your own module.
 ```js
-var app = angular.module('ModuleName', ['angular-material-slider']);
+var app = angular.module('ModuleName', ['angular-material-progressbar']);
 ```
 
 Use the directive in your HTML files with the following code:
